@@ -1,0 +1,67 @@
+Loaded 5 bikes from docs/station.txt (pricing: hourly)
+[1] list	[2] rent	[3] return	[4] pricing	[5] revenue	[0] exit
+> 1
+C-01 city - available
+C-02 city - available
+E-01 electric battery (85%) - available
+E-02 electric battery (15%) - not ready
+K-01 cargo - available
+[1] list	[2] rent	[3] return	[4] pricing	[5] revenue	[0] exit
+> 2
+bike id: E-02
+customer: Anna
+Anna rented E-02 electric battery (15%)
+[1] list	[2] rent	[3] return	[4] pricing	[5] revenue	[0] exit
+> 2
+bike id: E-01
+customer: Anna
+Anna rented E-01 electric battery (85%)
+[1] list	[2] rent	[3] return	[4] pricing	[5] revenue	[0] exit
+> 2
+bike id: C-01
+customer: Ben
+Ben rented C-01 city
+[1] list	[2] rent	[3] return	[4] pricing	[5] revenue	[0] exit
+> 2
+bike id: C-01
+customer: Cleo
+error: bike C-01 is already rented
+[1] list	[2] rent	[3] return	[4] pricing	[5] revenue	[0] exit
+> 3
+bike id: K-01
+minutes ridden: 40
+error: bike K-01 is not rented
+[1] list	[2] rent	[3] return	[4] pricing	[5] revenue	[0] exit
+> 3
+bike id: E-01
+minutes ridden: 95
+Anna returned E-01 after 95 min: 7.0 EUR (hourly)
+[1] list	[2] rent	[3] return	[4] pricing	[5] revenue	[0] exit
+> 4
+pricing (1 = hourly, 2 = member, 3 = day pass): 2
+pricing is now member
+[1] list	[2] rent	[3] return	[4] pricing	[5] revenue	[0] exit
+> 3
+bike id: C-01
+minutes ridden: 95
+Ben returned C-01 after 95 min: 4.0 EUR (member)
+[1] list	[2] rent	[3] return	[4] pricing	[5] revenue	[0] exit
+> 3
+bike id: X1
+error: bike id must look like C-01, was 'X1'
+[1] list	[2] rent	[3] return	[4] pricing	[5] revenue	[0] exit
+> 9
+unknown option '9'
+[1] list	[2] rent	[3] return	[4] pricing	[5] revenue	[0] exit
+> 5
+revenue: 11.0 EUR
+[1] list	[2] rent	[3] return	[4] pricing	[5] revenue	[0] exit
+> 1
+C-01 city - available
+C-02 city - available
+E-01 electric battery (85%) - available
+E-02 electric battery (15%) - not ready
+K-01 cargo - available
+[1] list	[2] rent	[3] return	[4] pricing	[5] revenue	[0] exit
+> 0
+bye

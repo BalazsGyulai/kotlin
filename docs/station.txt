@@ -1,0 +1,6 @@
+# kind;id[;battery percent]
+CITY;C-01
+CITY;C-02
+ELECTRIC;E-01;85
+ELECTRIC;E-02;15
+CARGO;K-01
